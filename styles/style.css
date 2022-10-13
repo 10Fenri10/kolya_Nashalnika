@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap');
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    background: #151419;
+    ;
+
+}
+.container {
+    max-width: 1160px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.shop-item {
+    height: 290px;
+    position: relative;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.shop-item00 {
+    background-image: url(../image/хз.png);
+    border-radius: 8px;
+   
+}
+.shop-item01 {
+    background-image: url(../image/гриффон.png);
+    border-radius: 8px;
+}
+.shop-item02 {
+    background-image: url(../image/лабрадор.jpeg);
+    border-radius: 8px;
+   
+}
+.shop-item03 {
+    background-image: url(../image/спаниель.jpeg);
+    border-radius: 8px;
+
+}
+.shop-item04 {
+    background-image: url(../image/доберман.jpeg);
+    border-radius: 8px;
+
+}
+.shop-item05 {
+    background-image: url(../image/собака8.avif);
+    border-radius: 8px;
+   
+}
+.shop-item06 {
+    background-image: url(../image/собака1.jpeg);
+    border-radius: 8px;
+}
+.shop-item07 {
+    background-image: url(../image/собака2.jpeg);
+    border-radius: 8px;
+   
+}
+.shop-item08 {
+    background-image: url(../image/собака3.jpeg);
+    border-radius: 8px;
+
+}
+.shop-item09 {
+    background-image: url(../image/собака4.jpeg);
+    border-radius: 8px;
+
+}
+.shop-item10 {
+    background-image: url(../image/собака5.avif);
+    border-radius: 8px;
+   
+}
+.shop-item11 {
+    background-image: url(../image/собака6.avif);
+    border-radius: 8px;
+
+}
+.shop-item12 {
+    background-image: url(../image/собака7.avif);
+    border-radius: 8px;
+
+}
+.text-info {
+    position: absolute;
+    bottom: 0;
+    left: 0.8rem;
+    right: 0;
+    width: 100%;
+}
+h3.text-info {
+    font-size: 25px;
+    margin-bottom: 0;
+}
+h3{
+    color: #fff;
+    text-align:right;
+    padding-bottom: 15px;
+    padding-right: 15px;
+}
+.col.dog {
+    background: linear-gradient(1.26deg, #000000 -5.53%, rgba(0, 0, 0, 0) 54s.45%);
+    ;    
+
+}
+.heart {
+  position: absolute;
+    width: 34px;
+    height: 30px;
+    top: 20px;
+    left: 20px;
+
+    background-image:url(../image/Shape.svg)
+   ;
+}
+input {
+    display: none;
+  }
+  input:checked + label > div {
+    background-image:url(../image/ShapeColor.svg);
+  }
+.firstheart {
+    position: absolute;
+      width: 34px;
+      height: 30px;
+      top: 45px;
+      left: 45px;
+  
+      
+      background-image:url(../image/Shape.svg) ;
+  }
+
+  .headerheart {
+    position: absolute;
+    left: 1505px;
+    top: 60px;
+      width: 16px;
+      height: 14px;
+  
+      
+      background-image:url(../image/love.svg);
+  }
+header{
+    max-width: 1280px;
+    height: 100px;
+    background-color: #151419;
+    ;
+    margin: auto;
+}
+.text-header {
+ position: relative;
+    text-align: right;
+    font-size: 16px;
+
+}
+.col.favorit {
+    padding-right: 34px;
+    color: #626262;
+    padding-top: 34px;
+    padding-bottom: 37px;
+    padding-left: 34px;
+    
+}
+
+
+
+.logo {
+    text-align: left;
+    padding-left: 0px;
+    font-size: 24px;
+    color: #3C59F0;
+    padding-top: 30px;
+    padding-bottom: 38px;
+    padding-left: 34;
+
+
+}
+.shop-item.shop-item00{
+    height: 513px;
+}
+
+.btn {
+    color: #fff;
+}
+.dropdown-menu{
+    width: 100%;
+}
+.card-link {
+    border:  2px solid #626262;
+    border-radius: 30px;
+    padding: 10px;
+}
+a{
+    color: #626262;
+}
+.card{
+    background-color: #151419;
+}
+p {
+    color: #626262;
+}
+#btn-back-to-top {
+    position: fixed;
+    bottom: 155px;
+    right: 396px;
+    display: none;
+    background:url(../image/ButtomTop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: 46px;
+    padding-right: 38px;
+  }
+
+.gradient{
+    background: linear-gradient(1.26deg, #000000 -5.53%, rgba(0, 0, 0, 0) 54.45%);
+    border-radius: 7px;
+    z-index: 1;
+    padding-bottom: 266px;
+}
+.gradientfirst{
+    background: linear-gradient(1.26deg, #000000 -5.53%, rgba(0, 0, 0, 0) 54.45%);
+    border-radius: 7px;
+    z-index: 1;
+    padding-bottom: 489px;
+}
+.bottomlink {
+    background-image:url(../image/bottomlink.png) ;
+    padding-bottom: 16px;
+    background-repeat: no-repeat;
+    max-width: 70px;
+    margin: auto;
+    margin-top: 83px;
+    padding-bottom: 186px;
+}
+.sortABC {
+    margin-top: 8px;
+    padding-left: 810px;
+}
+.toggleicon {
+    background-image: url(../image/toggle.png);
+    padding-left:  31px;
+    padding-bottom: 15px;
+    background-repeat: no-repeat;
+    margin-left: 13px;
+    margin-top: 13px;
+}
